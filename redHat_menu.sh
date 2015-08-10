@@ -45,7 +45,13 @@ $SLEEP 5;;
 4) $PRINTF "\n" 
 $PRINTF "\n" 
 $PRINTF "And that's goodnight from me\n" 
-$SLEEP 5;; 
+$PRINTF "3\n"
+$SLEEP 1
+$PRINTF "2\n"
+$SLEEP 1
+$PRINTF "1\n"
+$SLEEP 1
+QUIT=1;; 
 [Qq]) QUIT=1;; 
 ?) $PRINTF "\n" 
 $PRINTF "\n" 
